@@ -1,0 +1,19 @@
+/* Fonts */
+
+/* Colors */
+@main-color: hsl(0, 0%, 100%);
+@border-color: hsl(hue(@main-color), 0%, 93%);
+@logo-color: hsl(hue(@main-color), 5%, 24%);
+@icon-dark: hsl(219, 97%, 56%);
+@icon-light: hsl(193, 97%, 57%);
+@link-color: hsl(hue(@main-color), 0%, 38%);
+
+/* Params */
+@border: 1px solid @border-color;
+
+/* Mixin */
+.__mixin__link {
+  text-decoration: none;
+  color: @link-color;
+  font-size: 18px;
+}
